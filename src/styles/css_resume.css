@@ -181,6 +181,10 @@ h2{
     grid-template-rows: max-content;
     
 }
+.box-7 a{
+    color: #fff;
+    text-decoration:none;
+}
 .box-7 .info-top{
     padding: 10px;
     text-align: center;
