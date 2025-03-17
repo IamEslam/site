@@ -1,0 +1,498 @@
+@font-face {
+    font-family: my-1;
+    src: url(../webfonts/Chaletliness.ttf);
+  }
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    text-decoration: underline;
+    font-size: x-large;
+    margin: 0;
+    text-align: left;
+}
+.container{
+    margin: auto;
+    width: fit-content;
+    display: grid;
+    grid-template-columns:  40px 40px 240px 480px 40px ;
+    grid-template-rows:     20px 40px auto auto auto 20px ;
+    background-color: #555;
+    color: #555;
+    box-shadow: 0px 0px 15px #111;
+}
+
+.box-1{
+    grid-area:  1/1/4/6;
+    background-color: #ffcc11;
+}
+.box-2{
+    grid-area: 3 / 2 / 4 / 5;
+    background-color: #fff;
+}
+
+.box-3{
+    grid-area: 3 / 4 / 4 / 5;
+    background-color: #fff;
+}
+.box-3 img{
+    display: none;
+}
+.box-3 div h1{
+    margin: 0;
+    padding: 0 10px;
+    font-size: 5rem;
+    text-transform:capitalize ;
+    line-height: 1;
+    letter-spacing: -0.12rem;
+}
+.box-3 div div{
+    margin: 0 10px;
+    margin-bottom: 10px;
+    background-color: #555;
+    text-align: left;
+}
+.box-3 div div .item {
+    visibility: hidden;
+    display: none;
+  }
+.box-3 div div span{
+    background-color: #fff;
+    font-size: 2rem;
+    line-height: 1;
+    padding-right:  1px;
+    margin-right:  1px;
+}
+
+.box-4{
+    grid-area: 4/4/4/4;
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+
+}
+.box-4 p{
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+}
+
+.box-5{
+    grid-area: 5/2/5/5;
+    background-color: #fff;
+}
+.box-5 div{
+    width: max-content;
+    height: max-content;
+    transform: rotate(-90deg);
+    position: relative;
+    top: calc(100% - 200px);
+    right: 185px;
+    color: #fff;
+}
+.box-5 div span{
+    font-family: my-1;
+    font-size: 40px;
+    color: #fc1;
+    text-shadow: 1px 1px 2px #000, -1px 1px 1px #fff;
+    padding: 0 10px;
+}
+.box-6{
+    grid-area: 5/4/5/4;
+    background-color: #fff;
+    padding: 10px;
+}
+.box-6 div h3{
+    margin: 15px;
+    margin-bottom: 2px;
+}
+.box-6 section{
+    border-bottom: 4px solid #fc1;
+    border-top: 4px solid #fc1;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+.box-6 section .ex{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+.box-6 section .ex  .box_1{
+    transform: rotate(-90deg);
+    margin: -20px;
+    align-content: center;
+    font-weight: 600;
+}
+.box-6  .ex  .box_2 {
+    grid-area: 1 / 2;
+    border-left: 4px solid #ffcc11;
+    background: #eee;
+    padding: 5px 5px 5px 10px;
+    box-shadow: 0px 1px 2px #555;
+    margin: 5px 0 5px 10px;
+}
+.box-6  .ex  .box_2 h3{
+    margin: 5px;
+}
+.box-6 section .ex .box_2 strong{
+    margin: 0 0 0 40px;
+}
+.box-6 section .ex .box_2 p{
+    margin: 0 0 0 5px;
+}
+.box-6 dl{
+    margin: 10px;
+    padding: 0 10px;
+    margin-left: 60px;
+    border-left: 6px double #fc1;
+}
+.box-6 dl dd{
+    margin: 0;
+}
+.box-6 dl dt{
+    margin-left: 20px;
+}
+
+
+.box-7{
+    grid-area: 2 / 3 / 7 / 3;
+    background-color: #555;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content;
+    
+}
+.box-7 .info-top{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 20px solid;
+}
+.box-7 .info-top img{
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    padding: 2px;
+    -webkit-box-reflect: below 0px 
+        -webkit-gradient(linear, left top, left bottom, 
+            from(transparent), 
+            color-stop(0.5, transparent), 
+            to(rgba(250, 250, 250, 0.3)));
+}
+.box-7 .info-top h2{
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;color: #FC1;
+}
+.box-7 .info-top dl{
+    text-align: left;
+    font-style: normal;
+    list-style-type: none;
+    margin: ;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+.box-7 .info-top dl dt{
+    color: #FC1;
+    margin: 0 20px;
+}
+
+.box-7 .info-bottom{
+    background-color: #ffcc11;
+    padding: 0 10px;
+    color: #000;
+    border-top:2px dashed #fff ;
+}
+.box-7 .info-bottom div{
+    margin: 0 -10px;
+    padding:  10px;
+}
+.box-7 .info-bottom .dashed{
+    border-top:2px dashed #fff ;
+    border-bottom:2px dashed #fff ;
+}
+
+.box-8{
+    grid-area: 6/1/7/2;
+}
+.box-8 div{
+    transform: translate(-145px, -170px) rotate(-90deg);
+}
+
+@media (max-width:600px) {
+    .container{
+        grid-template-columns: 1fr;
+        width: auto;
+        text-align: left;
+    }
+
+    .box-1{
+        grid-area: 1 / 1 / 4 / 1;
+    }
+    .box-2{
+        grid-area: 3 / 1 / 3 / 1;
+        display: none;
+    }
+    .box-3{
+        grid-area: 3 / 1 / 3 / 1;
+        margin: 0 20px;
+        display: inline-flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .box-3 img{
+        display:block;
+        width: 150px;
+        height: fit-content;
+        margin-left: 10px;
+        border-radius: 50%;
+        border: 2px solid;
+        padding: 2px;
+    }
+    .box-3 div h1{
+        font-size: 4rem;
+        letter-spacing: -0.1rem;
+    }
+    .box-4{
+        grid-area: 4 / 1 / 4 / 1;
+        /* display: none; */
+    }
+    .box-5{
+        grid-area: 8 / 1 / 8 / 1;
+        background: #555;
+        display: flex;
+        justify-content: center;
+    }
+    .box-5 div{
+
+        transform:none;
+        position: unset;
+
+        color: #fff;
+    }
+    .box-6{
+        grid-area: 5 / 1 / 5 / 1;
+    }
+    .box-7{
+        grid-area: 7 / 1 / 7 / 1;
+    }
+    .box-7 .info-top img {
+         width: 80%;
+         display: none;
+    }
+    .box-8{
+        grid-area: 8 / 1 / 8 / 1;
+        display: none;
+    }
+}
+/* collapsible---------------------------------------- */
+.collapsible {
+    background-color: #FC1;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+  }
+  .active, .collapsible:hover {
+    background-color: #555;
+    color: white;
+  }
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  .active:after {
+    content: "\2212";
+  }
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #eee;
+    box-shadow: inset 0px 0px 4px 0px #555;
+  }
+
+    
+  /* Light Box-------------------------------------------------------------------------------------------- */
+.awords{
+  width: 200px;
+  margin: 6px;
+  border-radius: 10px;
+  border: 3px solid #fff;
+}
+.slideshow_wrapper {
+    max-width: 240px;
+    min-width: -webkit-fill-available;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 !important;
+}
+.slideshow {
+    padding: 0px !important;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+.slide {
+    float: left;
+}
+@-webkit-keyframes slide_animation {
+  
+  0% {right:0px;}
+  10% {right:636px;}
+  20% {right:1272px;}
+  30% {right:1908px;}
+  40% {right:424px;}
+  50% {right:212px;}
+  60% {right:848px;}
+  70% {right:1484px;}
+  80% {right:2332px;}
+  90% {right:424px;}
+  100% {right:0px;}  
+}
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    padding-top: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #777a;
+  }
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    width: 75%;
+    max-width: 90%;    
+    /* margin: 30px; */
+    padding: 30px;
+    border: 20px groove #424242;
+    box-shadow: 0px 0px 25px #fff;
+  }
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 8%;
+    font-size: 35px;
+    font-weight: bold;
+    z-index: 50;
+    color: #ffffff;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .mySlides {
+    display: none;
+  }
+  .cursor {
+    cursor: pointer;
+    padding: 0px 10px !important;
+    display: flex;
+    justify-content: center;
+  }
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background: #777a;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+    left: 0px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    background: #777a;
+  }
+  .slideshow_wrapper img {
+    border: 6px double #ffffff;
+    box-shadow: 0px 0px 5px #777;
+  }
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  .demo {
+    opacity: 0.6;
+  }
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+/* -------------------------------------------------------------------------------------------- */
