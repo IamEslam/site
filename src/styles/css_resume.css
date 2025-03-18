@@ -280,9 +280,10 @@ h2{
         border-radius: 50%;
         border: 2px solid;
         padding: 2px;
+         margin-right: 5px;
     }
     .box-3 div h1{
-        font-size: 32px;
+        font-size: 30px;
         /* letter-spacing: -0.1rem; */
     }
     .box-3 div div span{
