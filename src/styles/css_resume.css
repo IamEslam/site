@@ -64,7 +64,7 @@ h2{
     letter-spacing: -0.12rem;
 }
 .box-3 div div{
-    margin: 0 10 px 0 6 px;
+    margin: 0 10px 0 6px;
     background-color: #555;
     text-align: left;
 }
@@ -267,7 +267,7 @@ h2{
         width: 120px;
         height: fit-content;
         margin-: 6px;
-        border-radius: 50 %;
+        border-radius: 50%;
         border: 2px solid;
         padding: 2px;
     }
