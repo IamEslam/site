@@ -57,15 +57,14 @@ h2{
 }
 .box-3 div h1{
     margin: 0;
-    padding: 0 10px;
+    padding: 0 10px 0 6px;
     font-size: 5rem;
     text-transform:capitalize ;
     line-height: 1;
     letter-spacing: -0.12rem;
 }
 .box-3 div div{
-    margin: 0 10px;
-    margin-bottom: 10px;
+    margin: 0 10 px 0 6 px;
     background-color: #555;
     text-align: left;
 }
@@ -75,10 +74,10 @@ h2{
   }
 .box-3 div div span{
     background-color: #fff;
-    font-size: 2rem;
+    font-size: 1.8 rem;
     line-height: 1;
-    padding-right:  1px;
-    margin-right:  1px;
+    padding-right:  1 px;
+    margin-right:  1 px;
 }
 
 .box-4{
@@ -265,16 +264,15 @@ h2{
     }
     .box-3 img{
         display:block;
-        width: 150px;
+        width: 120px;
         height: fit-content;
-        margin-left: 10px;
-        border-radius: 50%;
+        margin-: 6px;
+        border-radius: 50 %;
         border: 2px solid;
         padding: 2px;
     }
     .box-3 div h1{
-        font-size: 4rem;
-        letter-spacing: -0.1rem;
+        font-size: 2.6rem;
     }
     .box-4{
         grid-area: 4 / 1 / 4 / 1;
