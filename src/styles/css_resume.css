@@ -242,7 +242,7 @@ h2{
     transform: translate(-145px, -170px) rotate(-90deg);
 }
 
-@media (max-width:600px) {
+@media (max-width:500px) {
     .container{
         grid-template-columns: 1fr;
         width: auto;
