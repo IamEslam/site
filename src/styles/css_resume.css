@@ -109,8 +109,9 @@ h2{
     transform: rotate(-90deg);
     position: relative;
     top: calc(100% - 200px);
-    right: 185px;
+    right: 195px;
     color: #fff;
+    font-size: large;
 }
 .box-5 div span{
     font-family: my-1;
