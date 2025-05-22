@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles/css_resume.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="src/styles/experience.css">
     <title>Eslam Ahmed Resume</title>
     <link rel="icon" href="src/images/favicon.ico">
 </head>
@@ -68,16 +69,17 @@
                 <!-- Filing-Data entry -->
                 <div class="ex">
                     <div class="box_1">-Jul-2009 <br> -Mar-2023</div>
-                    <div class="box_2">
+                    <div id="desc-1" class="box_2">
                         <h3>Filing and Auditor Assistant</h3>
                         <strong>BMW (Bavarian Auto Group) :</strong>
-                        <p>
+                        <p class="desc-1">
                             - Skilled in organizing and maintaining documents, accurate data entry, and quick information retrieval. <br>
                             - Proficient in Microsoft Office and experienced with various filing systems.
                         </p>
                     </div>
                 </div>
                 <!-- CSS Coder -->
+                 <hr>
                 <div class="ex">
                     <div class="box_1">-Oct-2008<br> -Feb-2009</div>
                     <div class="box_2">
@@ -89,6 +91,7 @@
                     </div>
                 </div>
                 <!-- Web Designer -->
+                 <hr>
                 <div class="ex">
                     <div class="box_1">-Jan-2008<br>-Apr-2008</div>
                     <div class="box_2">
@@ -100,6 +103,7 @@
                     </div>
                 </div>
                 <!-- Project Manager -->
+                 <hr>
                 <div class="ex">
                     <div class="box_1">-Dec-2005<br>-Dec-2007</div>
                     <div class="box_2">
@@ -113,6 +117,7 @@
                     </div>
                 </div>
                 <!-- Graphic Designer -->
+                 <hr>
                 <div class="ex">
                     <div class="box_1">-May-2004<br>-Aug-2005</div>
                     <div class="box_2">
@@ -145,7 +150,7 @@
         </div>
         <div class="box-7">
             <div class="info-top">
-                <img src="src/images/e2.jpg" alt="Eslam Ahmed">
+                <img src="src/images/eslam.jpg" alt="Eslam Ahmed">
                 <h2>Contacts</h2>
                 <dl>
                     <dt>Phone Number</dt>
@@ -312,22 +317,29 @@
        </script>
     <!-- ---------------------------------------------Certificates/Aword -->
 
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-        
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-              content.style.maxHeight = null;
-            } else {
-              content.style.maxHeight = content.scrollHeight + "px";
-            } 
-          });
-        }
-        </script>
+   <script>
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".collapsible");
+    const panels = document.querySelectorAll(".content");
+
+    buttons.forEach((btn, i) => {
+        btn.addEventListener("click", function () {
+            const isActive = this.classList.contains("active");
+
+            // Close all
+            buttons.forEach(b => b.classList.remove("active"));
+            panels.forEach(p => p.style.maxHeight = null);
+
+            // Toggle current only if it wasn't already active
+            if (!isActive) {
+                this.classList.add("active");
+                const panel = this.nextElementSibling;
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    });
+});
+</script>
         <script>
             let wrapper
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms))
@@ -369,6 +381,23 @@ async function erase() {
 writingAll('item', 'data-text');
         </script>
         <script src="src/scripts/js.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $(".box_2").click(function(){
+    // إخفاء كل الأوصاف ما عدا اللي ضغطنا عليه
+    $("p[class^='desc-']").not($(this).find("p")).slideUp(500);
+    $(this).find("p").slideToggle(500);
+  });
+
+  // فتح أول واحدة تلقائيًا
+  $(".box_2").first().find("p").slideDown(0);
+});
+</script>
+
+
+
 
 </body>
 </html>
