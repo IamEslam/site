@@ -286,9 +286,15 @@ h2{
         font-size: 52px;
         /* letter-spacing: -0.1rem; */
     }
+    .box-3 div div{
+        /* margin: 0 10px; */
+        /* margin-bottom: 10px; */
+        background-color: #555;
+        text-align: left;
+    }
     .box-3 div div span{
         font-size: 23px;
-        line-height: 1px;
+        /* line-height: 1px; */
     }
     .box-4{
         grid-area: 4 / 1 / 4 / 1;
