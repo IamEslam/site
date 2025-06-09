@@ -1,0 +1,159 @@
+   
+  /* Light Box-------------------------------------------------------------------------------------------- */
+.awords{
+  width: 200px;
+  margin: 6px;
+  border-radius: 10px;
+  border: 3px solid #fff;
+}
+.slideshow_wrapper {
+    max-width: 240px;
+    min-width: -webkit-fill-available;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 !important;
+}
+.slideshow {
+    padding: 0px !important;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+.slide {
+    float: left;
+}
+@-webkit-keyframes slide_animation {
+  
+  0% {right:0px;}
+  10% {right:636px;}
+  20% {right:1272px;}
+  30% {right:1908px;}
+  40% {right:424px;}
+  50% {right:212px;}
+  60% {right:848px;}
+  70% {right:1484px;}
+  80% {right:2332px;}
+  90% {right:424px;}
+  100% {right:0px;}  
+}
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    padding-top: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #777a;
+  }
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    width: 75%;
+    max-width: 90%;    
+    /* margin: 30px; */
+    padding: 30px;
+    border: 20px groove #424242;
+    box-shadow: 0px 0px 25px #fff;
+  }
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 8%;
+    font-size: 35px;
+    font-weight: bold;
+    z-index: 50;
+    color: #ffffff;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .mySlides {
+    display: none;
+  }
+  .cursor {
+    cursor: pointer;
+    padding: 0px 10px !important;
+    display: flex;
+    justify-content: center;
+  }
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background: #777a;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+    left: 0px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    background: #777a;
+  }
+  .slideshow_wrapper img {
+    border: 6px double #ffffff;
+    box-shadow: 0px 0px 5px #777;
+  }
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  .demo {
+    opacity: 0.6;
+  }
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+/* -------------------------------------------------------------------------------------------- */
