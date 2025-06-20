@@ -225,10 +225,15 @@ font-weight: 900;
 .mt-3{
   width: 80%;
   margin: 0px !important;
+  background: #3E3E3E60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contact-form {
-  padding: 0px 15px 0px 15px;
+  padding: 15px;
   text-align: center;
+  width: 90%;
 }
 
 .form-control {
@@ -272,8 +277,8 @@ label {
 }
 
 #submit:hover {
-  background-color: #494949;
-  color: #fc1;
+  background-color: #fc1;
+  color: #494949;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
