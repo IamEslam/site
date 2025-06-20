@@ -266,10 +266,10 @@ label {
   /* padding: 12px; */
   /* min-width: 200px; */
   border-radius: 50px;
-  border: 2px solid #494949;
+  border: 2px solid #212529;
   text-align: center;
   /* font-size: 1em; */
-  color: #494949;
+  color: #212529;
   background-color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -278,7 +278,7 @@ label {
 
 #submit:hover {
   background-color: #fc1;
-  color: #494949;
+  color: #212529;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
