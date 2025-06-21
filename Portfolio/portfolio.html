@@ -10,9 +10,11 @@ body{
 }
 ._photos{
   text-align: center;
+  min-height: 400px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;    
+  justify-content: center;
+  align-content: center;
 }
 
 div.gallery {
@@ -35,58 +37,43 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
+  height: 125px;
+  object-fit: cover;
+  object-position: top;
 }
 
 div.desc {
-  padding: 15px;
+  padding: 10px;
   text-align: center;
+  font-family: sans-serif;
 }
 </style>
 </head>
 <body>
 <div class="_photos">
 <div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/css/img_5terre.jpg">
-    <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+  <a target="_blank" href="src/images/layout/i-Construct.jpg">
+    <img src="src/images/layout/i-Construct.jpg" alt="Cinque Terre" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">i-Construct <br> Landing Page Design</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/css/img_forest.jpg">
-    <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest" width="600" height="400">
+  <a target="_blank" href="src/images/layout/My-Portfolio.jpg">
+    <img src="src/images/layout/My-Portfolio.jpg" alt="Forest" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">Personal Portfolio <br> Full Layout</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/css/img_forest.jpg">
-    <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest" width="600" height="400">
+  <a target="_blank" href="src/images/layout/Camellia.jpg">
+    <img src="src/images/layout/Camellia.jpg" alt="Forest" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">Camellia websites</div>
 </div>
 
-<div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/css/img_forest.jpg">
-    <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
 
-<div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/css/img_lights.jpg">
-    <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
 
-<div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/css/img_mountains.jpg">
-    <img src="https://www.w3schools.com/css/img_mountains.jpg" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
 </div>
 
 </body>
