@@ -1,0 +1,125 @@
+@font-face {
+    font-family: my-1;
+    src: url(../webfonts/Chaletliness.ttf);
+  }
+body{
+    background-image: url(../images/landing.jpg);
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.row-1{
+    font-size: 1rem;
+    color:#fff;
+    background-color: #ffa600ba;
+}
+.row-1 i{
+color: #fff;
+padding: 0 5px;
+}
+
+.row-2{
+    background-color: #ffffffdd;
+}
+.row-2 img{
+    width: 50px;
+}
+.row-3{
+    background-color: #00000099;
+}
+.row-3 p{
+    background-color: #ffffff99;
+}
+.row-4{
+    background-color: #ffffffdd;
+
+}
+.row-4 .text-warning{
+    text-shadow: 1px 1px 2px black;
+}
+.row-5 .col-3{
+    margin: .5%;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0 6px 1px #555555bb;
+    transition:  .2s;
+    width: 24%;
+}
+.row-5 .col-3:hover{
+    transform: scale(1.1,1.1);
+    z-index: 5;
+}
+.row-5 .col-3 h3, figcaption{
+    text-align: left;
+}
+.row-5 img{
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid;
+    width: 60%;
+    padding: 2px;
+}
+.row-6{
+    margin-top: 20px;
+}
+.row-6 img{
+    width:100%;
+    height: auto;
+}
+.row-7{
+    margin-top: 20px;
+}
+.row-7 .col:first-child{
+    background-image: url(../images/2.png);
+    background-position: center center;
+    background-size: cover;
+}
+.row-7 .col:last-child{
+    background-image: url(../images/1.png);
+    background-position: center center;
+    background-size: cover}
+.row-7 .col div{
+    margin: 40px;
+    background-color: #000000bb;
+    padding: 20px;
+    color: #fff;
+    transition: .2s;
+}
+.row-7 .col div:hover{
+    transform: scale(1.1,1.1);
+}
+.row-8{
+    text-align: center;
+}
+.row-8 span{
+    font-family: my-1;
+    font-size: 40px;
+    color: rgb(255, 204, 17);
+    text-shadow: rgb(0, 0, 0) 1px 1px 2px, rgb(0, 0, 0) 0px 0px 5px;
+    padding: 0px 10px;
+}
+.row-8 a{
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 992px) {
+    .row-1{
+        display: none;
+    }
+    .row-3 div div{
+        width: 100%;
+    }
+    .row-5 .col-3{
+        width: 49%;
+    }
+    .row-6 .col-9{
+        width: 100%;
+    }
+    .row-6 .col-3{
+        display: none;
+    }
+}
