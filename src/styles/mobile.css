@@ -30,8 +30,9 @@
     font-weight: revert;
 }
 .left-section div h2 {
-    padding-left: 0;
+    padding-left: 0 !important;
 }
+
 .right-section{
     width: 00%;
     display: flex;
