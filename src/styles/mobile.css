@@ -64,3 +64,18 @@
   .slideshow-container img{
     width: 100vw;
   }
+  .fp-overflow{
+    box-shadow: 0 0 0;
+  }
+  .tabs a{
+    padding: 0;
+  }
+  .tab-content{
+    padding: 10px;
+  }
+  .mt-3{
+    width: 90%;
+  }
+  .contact-form {
+    padding: 5px 15px;
+  }
