@@ -11,8 +11,8 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {
   vertical-align: middle;
-  width: 600px !important;
-  height: 400px !important;
+  width: 600px;
+  height: 400px;
 }
 
 /* Slideshow container */
@@ -119,11 +119,12 @@ img {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 500px) {
   .prev, .next,.text {font-size: 11px}
-}
+  .slideshow-container{width: 100vw;height: auto;border: 0;}
+  .slideshow-container img{width: 100vw; height: auto;}
+  }
 </style>
-<link rel="stylesheet" href="../styles/mobile.css">
 </head>
 <body>
 
