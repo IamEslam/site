@@ -65,7 +65,7 @@
     width: 100vw;
   }
   .fp-overflow{
-    box-shadow: 0 0 0;
+    box-shadow:none;
   }
   .tabs a{
     padding: 0;
