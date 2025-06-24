@@ -115,6 +115,9 @@ h2{
     right: 185px;
     color: #fff;
 }
+.box-5 div a{
+    text-decoration: none;
+}
 .box-5 div span{
     font-family: my-1;
     font-size: 40px;
