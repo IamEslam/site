@@ -1,10 +1,9 @@
 .card {
   color: #494949;
   text-align: center;
-  width: 100vw;
-  height:fit-content;
-  background: none;
-  /* background: #f9f9f9 url(../images/bg-portflio.jpg) no-repeat bottom / cover; */
+  width: 100dvw;
+  height:100dvh;
+  background: #f9f9f9 url(../images/bg-portflio.jpg) no-repeat bottom / cover;
   margin: auto;
   display: flex;
   justify-content: center;
