@@ -3,7 +3,8 @@
   text-align: center;
   width: 100vw;
   height: 100vh;
-  background: #f9f9f9 url(../images/bg-portflio.jpg) no-repeat bottom / cover;
+  background: none;
+  /* background: #f9f9f9 url(../images/bg-portflio.jpg) no-repeat bottom / cover; */
   margin: auto;
   display: flex;
   justify-content: center;
