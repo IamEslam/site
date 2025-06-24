@@ -10,8 +10,9 @@
 
 
 
-.mySlides {display: none;}
-img {
+.mySlides {display: none;
+}
+.mySlides img {
   vertical-align: middle;
   width: 600px !important;
   height: 360px !important;
