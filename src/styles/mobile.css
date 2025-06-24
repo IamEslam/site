@@ -4,13 +4,14 @@
   width: 100vw;
   height: 100vh;
   background: #f9f9f9 url(../images/bg-portflio.jpg) no-repeat bottom / cover;
-  box-shadow: #494949 0px 0px 15px 1px;
-  border: 1px #494949 solid;
+  box-shadow:none;
+  border: 0px ;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius:0;
   
 }
 .left-section{
