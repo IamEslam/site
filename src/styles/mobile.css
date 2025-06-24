@@ -2,8 +2,8 @@
   color: #494949;
   text-align: center;
   width: 100vw;
-  height: auto;
-  background: none;
+  height: fit-content;
+  background: red;
   /* background: #f9f9f9 url(../images/bg-portflio.jpg) no-repeat bottom / cover; */
   margin: auto;
   display: flex;
