@@ -13,8 +13,8 @@
 .mySlides {display: none;}
 img {
   vertical-align: middle;
-  width: 600px;
-  height: 360px;
+  width: 600px !important;
+  height: 360px !important;
 }
 
 /* Slideshow container */
