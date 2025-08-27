@@ -1,0 +1,68 @@
+for collapsible tabe model 
+-------------------------------------------------------------------------------
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".collapsible");
+    const panels = document.querySelectorAll(".content");
+
+    buttons.forEach((btn, i) => {
+        btn.addEventListener("click", function () {
+            const isActive = this.classList.contains("active");
+
+            // Close all
+            buttons.forEach(b => b.classList.remove("active"));
+            panels.forEach(p => p.style.maxHeight = null);
+
+            // Toggle current only if it wasn't already active
+            if (!isActive) {
+                this.classList.add("active");
+                const panel = this.nextElementSibling;
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    });
+});
+</script>
+-------------------------------------------------------------------------------
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const coll = document.querySelectorAll(".collapsible");
+    const content = document.querySelectorAll(".content");
+
+    coll.forEach((btn, index) => {
+        btn.addEventListener("click", function () {
+            // Close all
+            coll.forEach(b => b.classList.remove("active"));
+            content.forEach(c => c.style.maxHeight = null);
+
+            // Open clicked one
+            this.classList.add("active");
+            const panel = this.nextElementSibling;
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        });
+    });
+
+    // Open the first one by default
+    if (coll.length > 0 && content.length > 0) {
+        coll[0].classList.add("active");
+        content[0].style.maxHeight = content[0].scrollHeight + "px";
+    }
+});
+</script>
+-------------------------------------------------------------------------------
+ <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>

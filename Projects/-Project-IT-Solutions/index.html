@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Eslam Ahmed">
+    <meta name="description my website or project" content="I'm A web designer">
+    <meta name="keywords" content="HTML 5, CSS 3, JavaScript, bootstrap, JQure, MySql, Php ">
+    <meta name="copyright" content="Eslam Ahmed"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/babel.css">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+
+
+    <title>IT-Solutions</title>
+</head>
+<body>
+  
+<!-- Navbar  ------------------------------------------------------------------------->
+    <div class="container-fluid sticky-top p-0 z-1">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="src/images/logo-02-1.png" alt="" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+<!-- End Navbar  --------------------------------------------------------------------->
+
+<!-- Landing ------------------------------------------------------------------------->
+    <div class="container-fluid ps-0">
+      <!-- Bg Video ------------------>
+<div class="video-background">
+  <iframe src="https://www.youtube.com/embed/zwUsFN__jtE?autoplay=1&mute=1&controls=0&showinfo=0&loop=1&playlist=zwUsFN__jtE&modestbranding=1"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen>
+  </iframe>
+</div>
+      <!-- End Bg Video -------------->
+      <div class="row align-items-center h-bg">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-light p-5 m-auto w-75 bg-dark opacity-75">
+          <div class="carousel-item active">
+            <h1>Headline landing #1</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae qui non saepe illum at debitis, suscipit voluptate officiis distinctio assumenda nesciunt repellendus neque vitae rerum quo! Eum enim dolorem corporis.</p>
+            <div>
+              <button type="button" class="btn btn-primary">Discover more</button>
+              <button type="button" class="btn btn-secondary">More about</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h1>Headline landing #2</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae qui non saepe illum at debitis, suscipit voluptate officiis distinctio assumenda nesciunt repellendus neque vitae rerum quo! Eum enim dolorem corporis.</p>
+            <div>
+              <button type="button" class="btn btn-primary">Discover more</button>
+              <button type="button" class="btn btn-secondary">More about</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h1>Headline landing #3</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae qui non saepe illum at debitis, suscipit voluptate officiis distinctio assumenda nesciunt repellendus neque vitae rerum quo! Eum enim dolorem corporis.</p>
+            <div>
+              <button type="button" class="btn btn-primary">Discover more</button>
+              <button type="button" class="btn btn-secondary">More about</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+<!-- End Landing --------------------------------------------------------------------->
+
+<!-- Icons Box ----------------------------------------------------------------------->
+    <div class="container text-center">
+      <div class="row justify-content-center text-primary">
+          <div class="col-md-3 bg-light m-3 pt-5 rounded-top mb-0 ibox _btn">         
+              <i class="fa-solid fa-laptop-code fs-1"></i>
+              <p class="fs-4">Quality Control System</p>
+          </div>
+          <div class="col-md-3 bg-light  m-3 pt-5 rounded-top mb-0 ibox _btn">
+            <i class="fa-solid fa-photo-film fs-1"></i>
+            <p class="fs-4">Media & Social</p>
+          </div>
+          <div class="col-md-3 bg-light  m-3 pt-5 rounded-top mb-0 ibox _btn">
+            <i class="fa-solid fa-atom fs-1"></i>
+            <p class="fs-4">Professional Achievement</p>
+          </div>
+          <div class="col-md-3 bg-light  m-3 pt-5 rounded-top mb-0 ibox _btn">
+            <i class="fa-brands fa-app-store-ios fs-1"></i>
+            <p class="fs-4">Mobile Apps & Design</p>
+          </div>
+      </div>
+    </div>
+<!-- End Icons Box ------------------------------------------------------------------->
+
+<!-- About Our Company --------------------------------------------------------------->
+    <div class="container bg-light ">
+      <div class="row">
+        <div class="col-md-6 p-5">
+          <img src="src/images/about-thumb-01-1.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-md-6 p-5">
+          <div class="row">
+            <p class="text-primary">About Our Company</p>
+            <h1 class="">Best IT-Solutions company near the world</h1>
+            <p>Over 25 years working in IT services developing software applications and mobile apps for clients all over the world.</p>
+            <div class="container-flouid pt-5">
+              <div class="row">
+                <div class="col-md-2">
+                  <i class="fa-solid fa-chart-pie h1 text-primary"></i>
+                </div>
+                <div class="col-md-10">
+                  <h3>Our Company History</h3>
+                  <p>IT services developing software applications 
+                    and mobile apps for clients all over the world.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">
+                  <i class="fa-regular fa-comment-dots h1 text-primary"></i>
+                </div>
+                <div class="col-md-10">
+                  <h3>Company Award</h3>
+                  <p>IT services developing software applications 
+                    and mobile apps for clients all over the world.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">
+                  <i class="fa-solid fa-phone-volume h1 text-primary"></i>
+                </div>
+                <div class="col-md-10">
+                  <p class="text-primary">Quick Support</p>
+                  <h4>(+6984 5698 569)</h4>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+<!-- End About Our Company ----------------------------------------------------------->
+
+<!-- Service Our Company ------------------------------------------------------------->
+    <div class="container-fluid text-center bg-ser py-3">
+        <div class="row text-light pt-5">
+          <h5>Service Our Company</h5>
+          <h3>World Best IT-Services</h3>
+          <h2>We Provide</h2>
+        </div>
+      <div class="container">
+        <div class="row justify-content-center text-light p-5">
+          <div class="col-md-2  border border-primary  m-2 rounded box-ser flex-column _btn">
+            <i class="fa-solid fa-bullhorn fs-1 p-3"></i>
+            <h3>Digital Services</h3>
+            <p>IT services developing software and mobile apps for clients</p>
+          </div>
+          <div class="col-md-2  border border-primary  m-2 rounded box-ser flex-column _btn">
+            <i class="fa-brands fa-angrycreative fs-1 p-3"></i>
+            <h3>Creative Idea</h3>
+            <p>IT services developing software and mobile apps for clients</p>
+          </div>
+          <div class="col-md-2  border border-primary  m-2 rounded box-ser flex-column _btn">
+            <i class="fa-solid fa-cloud-arrow-down fs-1 p-3"></i>
+            <h3>Online Service</h3>
+            <p>IT services developing software and mobile apps for clients</p>
+          </div>
+          <div class="col-md-2  border border-primary  m-2 rounded box-ser flex-column _btn">
+            <i class="fa-regular fa-bell fs-1 p-3"></i>
+            <h3>Unlimited Support</h3>
+            <p>IT services developing software and mobile apps for clients</p>
+          </div>
+          <div class="col-md-2  border border-primary  m-2 rounded box-ser flex-column _btn">
+            <i class="fa-solid fa-compass-drafting fs-1 p-3"></i>
+            <h3>Interior Design</h3>
+            <p>IT services developing software and mobile apps for clients</p>
+          </div>
+          <div class="col-md-2  border border-primary  m-2 rounded box-ser flex-column _btn">
+            <i class="fa-solid fa-camera-retro fs-1 p-3"></i>
+            <h3>Photography</h3>
+            <p>IT services developing software and mobile apps for clients</p>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+<!-- End Service Our Company --------------------------------------------------------->
+
+<!-- Our Company --------------------------------------------------------------------->
+    <div class="container text-center py-3">
+      <p class="text-primary">About Our Portfolio</p>
+      <h3>IT Solution Expert Our Company</h1>
+      <h2>Membar</h2>
+    
+<!-- test Babel Cards------------------------------------------->
+      <main>
+      <div id="app" class="container-Cards">
+        <card data-image="src/images/pr1-1.jpg" >
+          <h1 slot="header">Name #1</h1>
+          <p slot="content">Branding UI Design</p>
+        </card>
+        <card data-image="src/images/pr2-1.jpg">
+          <h1 slot="header">Name #2</h1>
+          <p slot="content">UX Research Web Design</p>
+        </card>
+        <card data-image="src/images/pr3-1.jpg">
+          <h1 slot="header">Name #3</h1>
+          <p slot="content">Branding UX Research</p>
+        </card>
+        <card data-image="src/images/pr4-1.jpg">
+          <h1 slot="header">Name #4</h1>
+          <p slot="content">UI Design Web Design</p>
+        </card>
+      </div>
+      </main>
+<!-- test ------------------------------------------->
+      <a href="#" class="btn _2btn btn-primary px-5 p-4 fs-5 rounded-pill">View All Portfolio</a>
+    </div>
+<!-- End Our Company ----------------------------------------------------------------->
+
+<!--  About Our Skills bar ----------------------------------------------------------->
+<div class="container py-3">
+  <div class="row ">
+    <div class="col-md-6  skill-bg z-1"></div>
+    <div class="col-md-6">
+      <p class="text-primary">About Our Skills</p>
+      <h1>Best IT-Solutions company near the world</h1>
+      <p>Over 25 years working in IT services developing software applications and mobile apps for clients all over the world.</p>
+      <div class="wrapper">
+        <div class="skill">
+            <p>Web Development</p>
+            <div class="skill-bar skill1 wow slideInLeft animated">
+                <span class="skill-count1">75%</span>
+            </div>
+        </div>
+        <div class="skill">
+            <p>Web Development</p>
+            <div class="skill-bar skill2 wow slideInLeft animated">
+                <span class="skill-count2">85%</span>
+            </div>
+        </div>
+        <div class="skill">
+            <p>Web Development</p>
+            <div class="skill-bar skill3 wow slideInLeft animated">
+                <span class="skill-count3">95%</span>
+            </div>
+        </div>
+        <div class="skill">
+            <p>Web Development</p>
+            <div class="skill-bar skill4 wow slideInLeft animated">
+                <span class="skill-count4">65%</span>
+            </div>
+        </div>
+
+    </div>
+    <!-- end of /.coloumn -->
+
+    </div>
+  </div>
+</div>
+<!--  End About Our Skills bar ------------------------------------------------------->
+
+<!-- Get in Touch -------------------------------------------------------------------->
+  <div class="container-fluid get-bg py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 py-3 text-light">
+          <h1>Make An Free Consultant</h1>
+          <form action="">
+            <div class="row py-3">
+              <div class="col-6"><input class="border border-secondary bg-transparent w-100 p-3 text-light fs-5 " placeholder="Name*"  type="text" ></div>
+              <div class="col-6"><input class="border border-secondary bg-transparent w-100 p-3 text-light fs-5" placeholder="Phone*" type="text" ></div>
+            </div>
+            <div class="row py-3">
+              <div class="col-6"><input class="border border-secondary bg-transparent w-100 p-3 text-light fs-5" placeholder="E-Mail*" pattern="" type="text" ></div>
+              <div class="col-6"><input class="border border-secondary bg-transparent w-100 p-3 text-light fs-5" placeholder="Subject*" type="text" ></div>
+            </div>
+            <div class="row py-3">
+              <div class="col"><textarea class="border border-secondary bg-transparent w-100 p-3 text-light fs-5" placeholder="Text Message*" name="" id=""></textarea></div>
+            </div>
+            <div class="row py-3">
+              <div class="col"><input class="btn _2btn px-5 p-4 btn-primary" type="button" value="Send Message"></div>
+            </div>
+
+          </form>
+        </div>
+        <div class="col-md-6 w-50"></div>
+      </div>
+    </div>
+  </div>  
+<!-- End Get in Touch ---------------------------------------------------------------->
+
+<!-- Our Process --------------------------------------------------------------------->
+<div class="container text-center py-3">
+  <p class="text-primary">Our Process</p>
+  <h1>Check Out Our Work Process</h1>
+  <div class="row px-5">
+    <div class="col-md">
+      <img src="src/images/pro1-1.png" alt="">
+      <h3>Choose a Service</h3>
+      <p>Working over 25 years IT solution developing software and ile apps for clients</p>
+    </div>
+    <div class="col-md">
+      <img src="src/images/pro2-1.png" alt="">
+      <h3>Order a Project</h3>
+      <p>Working over 25 years IT solution developing software and ile apps for clients</p>
+    </div>
+    <div class="col-md">
+      <img src="src/images/pro3-1.png" alt="">
+      <h3>Complate Work</h3>
+      <p>Working over 25 years IT solution developing software and ile apps for clients</p>
+    </div>
+
+  </div>
+</div>
+<!-- End Our Process ----------------------------------------------------------------->
+
+
+
+<!-- Footer -------------------------------------------------------------------------->
+<footer class="container-fluid text-light p-5">
+  <div class="row justify-content-center">
+    <div class="col-md-3 text-start">
+      <a href="#" class="link">
+      <img src="src/images/logo-02-1.png" alt=""></a>
+      <p class="mt-4">Round whitefish flat loach potted killifish ronquil. Long-finned pike escolar northern pike escolar nor thern squawfish eel. </p>
+      <div class="opacity-100">
+          <a href="#" class="link-light link-opacity-75 link-opacity-100-hover h1 p-2 ps-0">
+          <i class="fa-brands fa-square-facebook "></i></a>
+          <a href="#" class="link-light link-opacity-75 link-opacity-100-hover h1 p-2 ps-0">
+          <i class="fa-brands fa-square-x-twitter "></i></a>
+          <a href="#" class="link-light link-opacity-75 link-opacity-100-hover h1 p-2 ps-0">
+          <i class="fa-brands fa-square-pinterest "></i></a>
+      </div>      
+    </div>
+    <div class="col-md-3 text-start ">
+      <h3>Useful Links</h3>
+      <p><a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Software Development</a></p>
+      <p><a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Web Development</a></p>
+      <p><a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Community Meetups</a></p>
+      <p><a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Cloud and DevOps</a></p>
+      <p><a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Product Design</a></p>
+
+    </div>
+    <div class="col-md-3 text-start">
+      <h3>Address Us</h3>
+      <p><i class="fa-solid fa-location-dot pe-2 fs-5"></i>378 FA Tower, William SBl 2123, IL, US</p>
+      <p><i class="fa-solid fa-phone pe-2 fs-5"></i>(+990) 698 598 631</p>
+      <p><i class="fa-solid fa-envelope-open-text pe-2 fs-5"></i>demo@example.com</p>
+      <p><i class="fa-solid fa-clock pe-2 fs-5"></i>Opening Hours: 9:00 - 6:00</p>
+    </div>
+    <div class="col-md-3 text-start ">
+      <h3>Navigation</h3>
+      <p><a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Become an Affiliate</a></p>
+      <p><a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">About Drone</a></p>
+      <p><a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Community Meetups</a></p>
+      <p><a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Why Buy With Us?</a></p>
+      <p><a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Blog and News</a></p>
+    </div>
+  </div>
+</footer>
+<!-- End Footer ---------------------------------------------------------------------->
+
+<!-- Copy Right ---------------------------------------------------------------------->
+<div class="container-fluid py-3 bg-primary text-light">
+  <div class="row justify-content-evenly ">
+    <div class="col-md-4 text-start">Copyright © poket all rights reserved.</div>
+    <div class="col-md-4 text-end">
+      <a href="#" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover link-opacity-75-hover">Service</a> | 
+      <a href="#" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover link-opacity-75-hover">Contact</a> | 
+      <a href="#" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover link-opacity-75-hover">About</a>
+    </div>      
+  </div>
+</div>
+<!-- End Copy Right ------------------------------------------------------------------>
+
+
+  <!-- Page Scroll Progress Bar ------------------------------------------------------>
+  <div class="headbar">
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+  </div>
+  <!-- End Page Scroll Progress Bar -------------------------------------------------->
+
+
+
+
+<!------ Scripts --------------------------------------------------------------------->
+      <!-- Script bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- script fontawesome -->
+    <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/js/all.min.js"></script>
+      <!-- script bg-video -->
+      <script> var video = document.getElementById("myVideo"); </script>
+      <!-- script Babel -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
+      <script src="src/scripts-/babel.js"></script>
+      <!-- script skill bar -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" ></script>
+          <script>
+              (function($){
+              new WOW().init();
+          })(jQuery);
+          </script>
+      <!-- script Progress Header bar ------------------------------------------------------->
+       <script>
+          function progressBarScroll() {
+          let winScroll = document.body.scrollTop || document.documentElement.scrollTop,
+            height = document.documentElement.scrollHeight - document.documentElement.clientHeight,
+            scrolled = (winScroll / height) * 100;
+            document.getElementById("progressBar").style.width = scrolled + "%";
+            }
+
+            window.onscroll = function () {
+              progressBarScroll();
+            };
+       </script>
+
+<!------ End Scripts ----------------------------------------------------------------->
+
+</body>
+</html>s
