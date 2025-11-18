@@ -183,7 +183,7 @@ body{
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #212529;
+    color: #494949;
     background-color: #ffc107;
     transition: background-color 0.3s ease;
   }
@@ -191,15 +191,15 @@ body{
     background-color: #e74c3c; /* لون مختلف للتبويب الثاني */
   }
   .tabs a.active {
-    background-color: #212529; /* لون مميز للتبويب النشط */
+    background-color: #494949; /* لون مميز للتبويب النشط */
     color: #fff;
   }
   .tab-content {
     display: none;
-    padding: 20px;
+    padding: 10px;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #212529;
+    background-color: #494949;
     color: #fff;
   }
   .tab-content.active {
