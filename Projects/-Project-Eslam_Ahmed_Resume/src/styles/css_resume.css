@@ -153,6 +153,7 @@ h2{
     /*add w h px*/
     width: 80px;
     height: 80px;
+    color: red;
 }
 .box-6  .ex  .box_2 {
     grid-area: 1 / 2;
