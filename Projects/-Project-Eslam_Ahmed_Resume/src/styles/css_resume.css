@@ -147,13 +147,12 @@ h2{
 }
 .box-6 section .ex  .box_1{
     transform: rotate(-90deg);
-    margin: 0 -20px;/*add 0 px*/
+    margin: -20px;
     align-content: center;
     font-weight: 600;
-    /*add w h px*/
-    width: 80px;
-    /* height: 80px; */
-    color: blue;
+    /* width: 80px;
+    height: 80px; */
+    color: red;
 }
 .box-6  .ex  .box_2 {
     grid-area: 1 / 2;
@@ -533,3 +532,4 @@ h2{
   }
 
 /* -------------------------------------------------------------------------------------------- */
+
