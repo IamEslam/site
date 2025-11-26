@@ -5,6 +5,7 @@
     font-weight: 600;
     width: 80px;
     /* height: 80px; */
+    color: orange;
 }
 .box-6  .ex  .box_2 {
     grid-area: 1 / 2;
@@ -25,4 +26,5 @@
     margin: 5px 0px;
     display: none;
 }
+
 
