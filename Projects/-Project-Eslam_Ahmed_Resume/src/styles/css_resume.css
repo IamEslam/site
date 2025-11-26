@@ -67,7 +67,7 @@ h2{
 .box-3 div h1{
     /* text-align: end; */
     margin: 0;
-    font-size: 77px;
+    font-size: 75px;
     text-transform:capitalize ;
     line-height: 1;
 }
@@ -144,6 +144,7 @@ h2{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
+    position: relative;
 }
 /* .box-6 section .ex  .box_1{
     transform: rotate(-90deg);
