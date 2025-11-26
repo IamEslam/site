@@ -3,9 +3,12 @@
     margin: -25px;
     align-content: center;
     font-weight: 600;
-    /*width: 80px;
-     height: 80px; */
-    color: green;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    color: aqua;
 }
 .box-6  .ex  .box_2 {
     grid-area: 1 / 2;
@@ -26,6 +29,7 @@
     margin: 5px 0px;
     display: none;
 }
+
 
 
 
