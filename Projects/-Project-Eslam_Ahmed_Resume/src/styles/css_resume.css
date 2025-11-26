@@ -149,11 +149,11 @@ h2{
     transform: rotate(-90deg);
     margin: 0 -20px;/*add 0 px*/
     align-content: center;
-    /* font-weight: 600;
-    add w h px*/
+    font-weight: 600;
+    /*add w h px*/
     width: 80px;
-    height: 80px;
-    color: red;
+    /* height: 80px; */
+    color: green;
 }
 .box-6  .ex  .box_2 {
     grid-area: 1 / 2;
@@ -531,5 +531,4 @@ h2{
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-
 /* -------------------------------------------------------------------------------------------- */
