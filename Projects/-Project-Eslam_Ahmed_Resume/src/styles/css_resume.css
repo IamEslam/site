@@ -168,7 +168,7 @@ h2{
     font-weight: 600;
     width: 80px;
     min-height: 80px;
-
+    color: red;
 }
 .box-6  .ex  .box_2 {
     grid-area: 1 / 2;
