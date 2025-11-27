@@ -148,7 +148,7 @@ h2{
 .box-6 section .ex  .box_1{
     transform: rotate(-90deg);
     margin: -20px;
-    align-content: center;
+    align-content:space-evenly;
     font-weight: 600;
 } 
 .box-6  .ex  .box_2 {
