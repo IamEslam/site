@@ -39,7 +39,7 @@
     margin: 5px 0;
 }
 .box-5 div span{
-    text-shadow: 0px 1px 1px #000, 0px 0px 0px #fff;
+    text-shadow: 0px 0px 0px #000, 0px 0px 0px #fff;
 }
 .box-7 .info-top dl dd,
 .box-7 .info-top dl dd a{
@@ -47,4 +47,5 @@
 }
 .box-7 .info-top {
     border-bottom: 0 solid;
+    padding-top: 40px;
 }
