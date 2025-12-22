@@ -400,7 +400,7 @@ h2{
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #eee;
-    box-shadow: inset 0px 0px 4px 0px #555;
+    box-shadow: inset -1px -1px 0px 0px #555;
   }
 
     

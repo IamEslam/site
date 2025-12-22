@@ -50,6 +50,15 @@
     padding-top: 40px;
 }
 .box-5 div{
-    right: 180px;
+    right: 160px;
     /* left: 610px; */
+}
+.box-6 div {
+    position: relative;
+}
+.box-6 div img{
+    width: 2cm;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
