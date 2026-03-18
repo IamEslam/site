@@ -82,6 +82,7 @@ h2{
     /* margin-bottom: 10px; */
     background-color: #555;
     text-align: left;
+    padding-left: 30px;
 }
 .box-3 div div .item {
     visibility: hidden;
