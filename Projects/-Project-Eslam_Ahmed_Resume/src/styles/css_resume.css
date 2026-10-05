@@ -402,7 +402,7 @@ h2{
     content: "\2212";
   }
   .content {
-    padding: 0 18px;
+    padding: 0 10px 0 18px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
