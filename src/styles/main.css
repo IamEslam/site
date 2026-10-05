@@ -209,6 +209,7 @@ text-align: left;
     background-color: #494949;
     color: #fff;
     list-style-type: none;
+    margin: -1px;
   }
   .tab-content.active {
     display: block;
