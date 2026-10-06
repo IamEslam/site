@@ -68,13 +68,14 @@ body{
     align-items: center;
     margin: 0 80px;
     height: 100%;
-    position: relative;
-    top: -45px;
-    left: -25px;
+
 }
 
 .t-shadow{
   text-shadow: #adb5bd 2px 2px 2px;
+  position: relative;
+  top: -40px;
+  left: -40px;      
 }
 .left-section div h2{
 text-align: left;
