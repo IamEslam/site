@@ -29,6 +29,9 @@
             flex-direction: column;
             padding: 0 20px;
         }
+     .t-shadow {
+      position: unset;
+     }
         .left-section div h2 {
             padding-left: 0 !important;
         }
